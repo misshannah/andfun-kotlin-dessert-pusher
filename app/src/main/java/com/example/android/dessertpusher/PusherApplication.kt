@@ -29,4 +29,4 @@ class PusherApplication : Application() {
 }
 
 // DONE (02) Copy over the Application class, called PusherApplication, from the course
-// TODO (04) In the PusherApplication class, initialize Timber by planting a Tree
+// DONE (04) In the PusherApplication class, initialize Timber by planting a Tree
