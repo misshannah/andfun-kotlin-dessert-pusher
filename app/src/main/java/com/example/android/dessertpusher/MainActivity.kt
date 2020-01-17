@@ -19,6 +19,7 @@ package com.example.android.dessertpusher
 import android.content.ActivityNotFoundException
 import android.os.Bundle
 import android.util.Log
+import android.view.ActionMode
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -149,5 +150,11 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         return super.onOptionsItemSelected(item)
     }
 
-    // TODO (02) Override the onStart lifecycle method and add an info level log statement
+    // DONE (02) Override the onStart lifecycle method and add an info level log statement
+
+
+    override fun onStart() {
+        Log.i("MainActivity", "onStart called")
+        super.onStart()
+    }
 }
